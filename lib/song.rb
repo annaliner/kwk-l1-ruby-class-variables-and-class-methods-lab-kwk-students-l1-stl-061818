@@ -16,7 +16,7 @@ class Song
     @@count 
   end
 
- def self.get_count_other_way 
+ def self.gets_count_other_way 
    @@count
 end
 end 
