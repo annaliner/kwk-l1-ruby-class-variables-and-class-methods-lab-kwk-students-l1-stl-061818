@@ -21,7 +21,6 @@ class Song
 end
 end 
 
-
 jon_song = Song.new("Hippity Hoppity","John Mendes","Jon's Way")
 
 # puts jon_song.jenje
