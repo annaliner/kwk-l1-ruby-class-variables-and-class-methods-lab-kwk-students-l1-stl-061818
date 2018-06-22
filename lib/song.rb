@@ -17,8 +17,8 @@ class Song
   end
 
  def self.get_count_other_way 
-
-
+   @@count
+end
 end 
 
 
