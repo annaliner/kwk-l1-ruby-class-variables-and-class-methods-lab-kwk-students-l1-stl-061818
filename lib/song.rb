@@ -27,5 +27,7 @@ jon_song = Song.new("Hippity Hoppity","John Mendes","Jon's Way")
 # puts jon_song.artist
 # puts jon_song.get_count
  puts "this is first method"
+ puts jon_song.get_count
  puts "this is the second method"
+ puts Song.gets_
 
