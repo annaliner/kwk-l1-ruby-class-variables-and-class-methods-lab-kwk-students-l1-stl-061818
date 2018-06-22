@@ -1,24 +1,20 @@
 class Album 
  
- @@album_count = 0 
+ @@count = 0 
  
   def initialize(name,date)
     @name = name
     @date = date
-    @@album_count = @@album_count + 1
+    @@count = @@count + 1
   end
   
-  def self.count 
-    @@album_count
+  def get_count
+    @@count
   end
-    
-  def name_of_album
-    @name 
+  
+  def self.get_count_other_way
+    @@count
   end
-    
-  def date_of_album
-    @date
-  end 
     
 end
 
